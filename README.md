@@ -1,5 +1,5 @@
 # freeCodeCamp
-Learn to code at home.
+Course.
 
 # Hello all well? Glad you are here, right? 🙃
 
