@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<!-- HTML Standard
+  https://html.spec.whatwg.org/multipage/
+-->
+<html>
+
+<head>
+    <!-- HTML Meta Tags
+    https://www.w3schools.com/tags/tag_meta.asp
+    https://www.w3schools.com/Tags/tag_link.asp 
+    https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/link
+  -->
+    <title>Personal Portfolio Webpage (freeCodeCamp) by @joze.rocha</title>
+    <meta charset="UTF-8" />
+    <meta lang="en, pt-br" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta keywords="FreeCodeCamp, Personal Portfolio Webpage">
+    <meta name="description"
+        content="This is a sample form built for freeCodeCamp a Personal Portfolio Webpage by @joze.rocha">
+    <!--Fonts
+    https://developers.google.com/fonts/docs/getting_started?hl=pt-br
+    https://fonts.google.com/
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://use.fontawesome.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <!-- Normalize or Reset    
+      https://www.alura.com.br/artigos/o-que-e-reset-css
+      https://meyerweb.com/eric/tools/css/reset/
+      https://necolas.github.io/normalize.css/ 
+    -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="navbar">
+        <h1 id="logo"><a href="#welcome">José Rocha</a></h1>
+        <a href="#welcome-section" class="active">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+    <div id="page-wrapper">
+        <!-- Main -->
+        <main id="main-content">
+            <!-- Welcome section-->
+            <section id="welcome-section">
+                <aside class="section-side">
+                    <div>
+                        <h1 class="text-white">Hello there, welcome!<br>
+                            My name is José, but you can call me Zé!</h1>
+                        <p class="text-white">I'm a computer science student and web developer who has a passion for
+                            learning about
+                            new technologies, platforms, frameworks, programming languages, and any other
+                            development-related topics.
+                        </p>
+                    </div>
+                </aside>
+                <div class="section-content">
+                    <div>
+                        <h2 class="text-black">About Me</h2>
+                        <p>
+                            I hold a degree in Commercial Representation Management, as well as an MBA in Planning and
+                            Organizational
+                            Management, both obtained from the University of Pernambuco (FCAP/UPE). Additionally, I
+                            completed an MBA
+                            in Agile Management from Anhanguera Uniderp. Currently, I am pursuing a degree in Computer
+                            Science at the
+                            University Estácio de Sá.
+                        </p>
+                        <p>
+                            I consider myself a Web Development student, in contrast to the previous courses mentioned.
+                            However, I
+                            appreciate the insight that a multidisciplinary approach brings.
+                        </p>
+                        <p>
+                            I find motivation in seeking out challenging solutions.
+                        </p>
+                        <p>
+                            My short-term goal is to expand my development skills, while my mid-term focus is on making
+                            sound
+                            architectural decisions. In the long term, I aspire to lead a diverse team of developers.
+                        </p>
+
+                        <div class="notice">This is not a real portfolio page, but a sample one built for
+                            <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage"
+                                target="_blank" rel="nofollow noopener">FreeCodeCamp Responsive Web Design
+                                Certification</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- Projects -->
+            <section id="projects">
+
+                <aside class="section-side">
+                    <h2 class="text-white">Projects</h2>
+                </aside>
+
+                <div class="section-content">
+
+                    <aside class="text-white">
+                        <h3>freeCodeCamp Responsive Web Design Certification</h3>
+                        <p>These are the projects I completed to earn my Responsive Web Design Certification from
+                            freeCodeCamp."</p>
+                    </aside>
+                    <div class="projects-container">
+
+                        <div class="project-tile">
+                            <a href="https://myname.github.io/FCC-TributePage/" rel="noopener" target="_blank">
+                                <figure>
+                                    <div class="aspect-ratio-16-9">
+                                        <img src="img/fcc_tribute_page.jpg"
+                                            alt="freeCodeCamp Tribute Page Assignment" />
+                                    </div>
+                                    <div class="tags">
+                                        <span>HTML5</span>
+                                        <span>CSS3</span>
+                                    </div>
+                                    <figcaption>Project #1 Tribute Page</figcaption>
+                                </figure>
+                            </a>
+                            <p>Built a tribute page for Ayrton Senna</p>
+                            <nav>
+                                <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page"
+                                    rel="noopener nofollow" target="_blank"><i
+                                        class="fa fa-info-circle"></i></i>Instructions</a>
+                                <a href="https://myname.github.io/FCC-TributePage/" rel="noopener" target="_blank"><i
+                                        class="fa fa-eye"></i>Live Preview</a>
+                                <a href="https://github.com/myname/FCC-TributePage" rel="noopener" target="_blank"><i
+                                        class="fab fa-github-square"></i>View on GitHub</a>
+                            </nav>
+                        </div>
+
+                        <div class="project-tile">
+                            <a href="https://myname.github.io/FCC-SurveyForm/" rel="noopener" target="_blank">
+                                <figure>
+                                    <div class="aspect-ratio-16-9">
+                                        <img src="img/fcc_survey_form.jpg" alt="freeCodeCamp Survey Form Assignment" />
+                                    </div>
+                                    <div class="tags">
+                                        <span>HTML5</span>
+                                        <span>CSS3</span>
+                                    </div>
+                                    <figcaption>Project #2 survey Form</figcaption>
+                                </figure>
+                            </a>
+                            <p>Built a sample survey form.</p>
+                            <nav>
+                                <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form"
+                                    rel="noopener nofollow" target="_blank"><i
+                                        class="fa fa-info-circle"></i></i>Instructions</a>
+                                <a href="https://myname.github.io/FCC-SurveyForm/" rel="noopener" target="_blank"><i
+                                        class="fa fa-eye"></i>Live Preview</a>
+                                <a href="https://github.com/myname/FCC-SurveyForm" rel="noopener" target="_blank"><i
+                                        class="fab fa-github-square"></i>View on GitHub</a>
+                            </nav>
+                        </div>
+
+                        <div class="project-tile">
+                            <a href="https://myname.github.io/FCC-ProductLandingPage/" rel="noopener" target="_blank">
+                                <figure>
+                                    <div class="aspect-ratio-16-9">
+                                        <img src="img/fcc_product_landing_page.jpg"
+                                            alt="freeCodeCamp Product Landing Page Assignment" />
+                                    </div>
+                                    <div class="tags">
+                                        <span>HTML5</span>
+                                        <span>CSS3</span>
+                                    </div>
+                                    <figcaption>Project #3 Product Landing Page</figcaption>
+                                </figure>
+                            </a>
+                            <p>Basic Product landing page.</p>
+                            <nav>
+                                <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page"
+                                    rel="noopener nofollow" target="_blank"><i
+                                        class="fa fa-info-circle"></i></i>Instructions</a>
+                                <a href="https://myname.github.io/FCC-ProductLandingPage/" rel="noopener"
+                                    target="_blank"><i class="fa fa-eye"></i>Live Preview</a>
+                                <a href="https://github.com/myname/FCC-ProductLandingPage" rel="noopener"
+                                    target="_blank"><i class="fab fa-github-square"></i>View on GitHub</a>
+                            </nav>
+                        </div>
+
+                        <div class="project-tile">
+                            <a href="https://myname.github.io/FCC-TechnicalDocumentation/" rel="noopener"
+                                target="_blank">
+                                <figure>
+                                    <div class="aspect-ratio-16-9">
+                                        <img src="img/fcc_technicaldocumentation.jpg"
+                                            alt="freeCodeCamp Technical Documentation Assignment" />
+                                    </div>
+                                    <div class="tags">
+                                        <span>HTML5</span>
+                                        <span>CSS3</span>
+                                    </div>
+                                    <figcaption>Project #4 Technical Documentation</figcaption>
+                                </figure>
+                            </a>
+                            <p>A sample Technical Documentation about Javascript.</p>
+                            <nav>
+                                <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page"
+                                    rel="noopener nofollow" target="_blank"><i
+                                        class="fa fa-info-circle"></i></i>Instructions</a>
+                                <a href="https://myname.github.io/FCC-TechnicalDocumentation/" rel="noopener"
+                                    target="_blank"><i class="fa fa-eye"></i>Live Preview</a>
+                                <a href="https://github.com/myname/FCC-TechnicalDocumentation" rel="noopener"
+                                    target="_blank"><i class="fab fa-github-square"></i>View on GitHub</a>
+                            </nav>
+                        </div>
+
+
+                        <!--
+            
+          </div>
+
+          <aside class="text-white pt-5">
+            <h3>freeCodeCamp Javascript Algorithms and Data Structures Projects</h3>
+          </aside>
+          <ul class="project-list pt-5">
+            <li>
+              <a href="https://github.com/myname/FCC-JSAlgorithms/tree/main/Intermediate_Algorithm_Scripting"
+                target="_blank" rel="nofollow noopener">
+                Solutions to Intermedia Algorithm Scripting Questions
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/myname/FCC-JSAlgorithms/tree/main/Final_Projects" target="_blank"
+                rel="nofollow noopener">
+                Solutions to Advanced Final Projects
+              </a>
+            </li>
+          </ul>
+
+          <aside class="text-white pt-5">
+            <h3>freeCodeCamp Frontend Development Libraries Certification Projects</h3>
+          </aside>
+          <div class="projects-container pt-5">
+
+            <div class="project-tile">
+              <a href="https://myname.github.io/fcc-random-quote-machine/" rel="noopener" target="_blank">
+                <figure>
+                  <div class="aspect-ratio-16-9">
+                    <img src="img/fcc_random_quote_machine.jpg" alt="Random Quote Machine Assignment" />
+                  </div>
+                  <div class="tags">
+                    <span>React</span>
+                    <span>Typescript</span>
+                    <span>Tailwind CSS</span>
+                  </div>
+                  <figcaption>Project #1 Random Quote Machine</figcaption>
+                </figure>
+              </a>
+              <p>A random quote machine that allows browsing all quotes and favoriting</p>
+              <nav>
+                <a href="https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine"
+                  rel="noopener nofollow" target="_blank"><i class="fa fa-info-circle"></i></i>Instructions</a>
+                <a href="https://myname.github.io/fcc-random-quote-machine/" rel="noopener" target="_blank"><i
+                    class="fa fa-eye"></i>Live Preview</a>
+                <a href="https://github.com/myname/fcc-random-quote-machine" rel="noopener" target="_blank"><i
+                    class="fab fa-github-square"></i>View on GitHub</a>
+              </nav>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://myname.github.io/fcc-markdown-previewer" rel="noopener" target="_blank">
+                <figure>
+                  <div class="aspect-ratio-16-9">
+                    <img src="img/fcc_markdown_previewer.jpg" alt="freeCodeCamp Markdown Previewer" />
+                  </div>
+                  <div class="tags">
+                    <span>React</span>
+                    <span>Typescript</span>
+                    <span>Tailwind CSS<span>
+                  </div>
+                  <figcaption>Project #2 Markdown Previewer</figcaption>
+                </figure>
+              </a>
+              <p>A live markdown previewer.</p>
+              <nav>
+                <a href="https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-markdown-previewer"
+                  rel="noopener nofollow" target="_blank"><i class="fa fa-info-circle"></i></i>Instructions</a>
+                <a href="https://myname.github.io/fcc-markdown-previewer" rel="noopener" target="_blank"><i
+                    class="fa fa-eye"></i>Live Preview</a>
+                <a href="https://github.com/myname/fcc-markdown-previewer" rel="noopener" target="_blank"><i
+                    class="fab fa-github-square"></i>View on GitHub</a>
+              </nav>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://myname.github.io/fcc-drum-machine" rel="noopener" target="_blank">
+                <figure>
+                  <div class="aspect-ratio-16-9">
+                    <img src="img/fcc_drum_machine.jpg" alt="freeCodeCamp Drum Machine" />
+                  </div>
+                  <div class="tags">
+                    <span>React</span>
+                    <span>Typescript</span>
+                    <span>Tailwind CSS</span>
+                  </div>
+                  <figcaption>Project #3 Drum Machine</figcaption>
+                </figure>
+              </a>
+              <p>A basic but still funny drum machine that has the potential for future improvements.</p>
+              <nav>
+                <a href="https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine"
+                  rel="noopener nofollow" target="_blank"><i class="fa fa-info-circle"></i></i>Instructions</a>
+                <a href="https://myname.github.io/fcc-drum-machine" rel="noopener" target="_blank"><i
+                    class="fa fa-eye"></i>Live Preview</a>
+                <a href="https://github.com/myname/fcc-drum-machine" rel="noopener" target="_blank"><i
+                    class="fab fa-github-square"></i>View on GitHub</a>
+              </nav>
+            </div>
+
+            <div class="project-tile">
+              <a href="https://myname.github.io/fcc-javascript-calculator" rel="noopener" target="_blank">
+                <figure>
+                  <div class="aspect-ratio-16-9">
+                    <img src="img/fcc_javascript_calculator.jpg" alt="freeCodeCamp Javascript Calculator" />
+                  </div>
+                  <div class="tags">
+                    <span>React</span>
+                    <span>Typescript</span>
+                    <span>Tailwind CSS</span>
+                  </div>
+                  <figcaption>Project #4 Javascript Calculator</figcaption>
+                </figure>
+              </a>
+              <p>Development of a calculator may sound easy at first, but challenging when you dive into it.</p>
+              <nav>
+                <a href="https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-javascript-calculator"
+                  rel="noopener nofollow" target="_blank"><i class="fa fa-info-circle"></i></i>Instructions</a>
+                <a href="https://myname.github.io/fcc-javascript-calculator" rel="noopener" target="_blank"><i
+                    class="fa fa-eye"></i>Live Preview</a>
+                <a href="https://github.com/myname/fcc-javascript-calculator" rel="noopener" target="_blank"><i
+                    class="fab fa-github-square"></i>View on GitHub</a>
+              </nav>
+            </div>
+
+            <div class="project-tile">
+              <a href="#" rel="noopener" target="_blank">
+                <figure>
+                  <div class="aspect-ratio-16-9">
+                  </div>
+                  <div class="tags">
+                    <span>React</span>
+                    <span>Typescript</span>
+                    <span>Tailwind CSS</span>
+                  </div>
+                  <figcaption>Project #5 25 -5 (Pomodoro) Timer</figcaption>
+                </figure>
+              </a>
+              <p>Upcoming Project, not finished yet!</p>
+              <nav>
+                <a href="https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-25--5-clock"
+                  rel="noopener nofollow" target="_blank"><i class="fa fa-info-circle"></i></i>Instructions</a>
+                <a href="" rel="noopener" target="_blank"><i class="fa fa-eye"></i>Live Preview</a>
+                <a href="" rel="noopener" target="_blank"><i class="fab fa-github-square"></i>View on GitHub</a>
+              </nav>
+            </div>
+          </div>
+
+          <aside class="text-white pt-5">
+            <h3>Optional Projects</h3>
+          </aside>
+          <p class="project-list pt-5">
+            I plan to complete all the above proejects with React and Vue.JS
+          </p>
+
+          <aside class="text-white pt-5">
+            <h3>Upcoming FreeCodeCamp Certifaction Projects</h3>
+            <p>These are the future certifications that I plan to acquire.</p>
+          </aside>
+          <ul class="project-list pt-5">
+            <li>
+              <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript"
+                target="_blank" rel="nofollow noopener">
+                Back End Development and APIs Certification
+              </a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript"
+                target="_blank" rel="nofollow noopener">
+                Quality Assurance Certification
+              </a>
+            </li>
+          </ul>
+
+          <aside class="text-white pt-5">
+            <h3>Optional FreeCodecamp Certificates</h3>
+            <p>These are the future certifications that I may acquire.</p>
+          </aside>
+
+          <ul class="project-list pt-5">
+            <li>
+              <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript"
+                target="_blank" rel="nofollow noopener">
+                Data Visualization Certification
+              </a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript"
+                target="_blank" rel="nofollow noopener">
+                Scientific Computing with Python Certification
+              </a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript"
+                target="_blank" rel="nofollow noopener">
+                Data Analysis with Python Certification
+              </a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript"
+                target="_blank" rel="nofollow noopener">
+                Information Security Certification
+              </a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript"
+                target="_blank" rel="nofollow noopener">
+                Machine Learning with Python Certification
+              </a>
+            </li>
+          </ul>
+
+        </div>
+-->
+            </section>
+
+            <section id="portfolio">
+                <aside class="section-side">
+                    <h2 class="text-white">Portfolio</h2>
+                </aside>
+                <div class="section-content">
+                    <p>About this demo</p>
+                    <p>This demo is part of the FreeCodeCamp Responsive Web Design certification and demonstrates skills
+                        in
+                        responsive design and modern web technologies.</p>
+                    <p>Contact me for more information about my full portfolio and to discuss your web design needs.</p>
+                </div>
+            </section>
+
+
+            <section id="contact">
+                <aside class="section-side">
+                    <h2 class="text-white mb-0">Contact Me</h2>
+                    <p class="text-white text-right my-0">This is a demo form and will not be submitted</p>
+                </aside>
+                <div class="section-content">
+                    <form class="contact-form" action="javascript:void(0);">
+                        <h3 class="text-black">If you wish to contact us, please fill in the fields below.
+                            <br>*Remember, it doesn't work, it's a demo!*
+                        </h3>
+                        <div class="field-group">
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" placeholder="What is your name?">
+                        </div>
+                        <div class="field-group">
+                            <label for="email">E-mail Address:</label>
+                            <input type="email" name="email" id="email" placeholder="What is your email address?">
+                        </div>
+                        <div class="field-group">
+                            <label for="message">Message</label>
+                            <textarea placeholder="Write me anything!" name="message" id="message"></textarea>
+                        </div>
+                        <input type="submit" value="Submit">
+                    </form>
+
+                    <div class="contact-links">
+                        <a href="https://twitter.com/" target="_blank">
+                            <i class="fab fa-twitter-square"></i> Twitter
+                        </a>
+                        <a href="https://linkedin.com/in/jozerocha/" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a id="profile-link" href="https://github.com/myname" target="_blank">
+                            <i class="fab fa-github-square"></i> GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+        </main>
+
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
+    <script src="func.js" defer></script>
+
+
+</body>
+
+</html>

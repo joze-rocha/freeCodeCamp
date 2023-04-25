@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Uma página sobre tecnologia e programação">
+	<meta name="keywords" content="tecnologia, programação, web, desenvolvimento">
+	<meta name="author" content="Nome do Autor">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="7 days">
+	<link rel="canonical" href="https://www.exemplo.com/pagina">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+	<title>Survey Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<h1 id="title">Survey Form</h1>
+		<p id="description">Please fill out this survey to help us improve our services.</p>
+	</header>
+	<main>
+		<form id="survey-form">
+			<label for="name" id="name-label">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+			<label for="email" id="email-label">Email:</label>
+			<input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+			<label for="number" id="number-label">Age:</label>
+			<input type="number" id="number" name="age" min="18" max="100" placeholder="Enter your age" required>
+
+			<label for="tel" id="tel-label">Phone Number:</label>
+			<input type="tel" id="tel" name="tel" placeholder="(99) 9999-9999"
+				pattern="\([0-9]{2}\)\s?[0-9]{4,5}-?[0-9]{4}" title="Phone number must be in the format (99) 9999-9999"
+				required>
+
+			<label for="dropdown" id="dropdown-label">Which option best describes your current role?</label>
+			<select id="dropdown" name="dropdown" required>
+				<option disabled selected value="">Select current role</option>
+				<option value="student">Student</option>
+				<option value="job">Full Time Job</option>
+				<option value="learner">Full Time Learner</option>
+				<option value="preferNo">Prefer not to say</option>
+				<option value="struggle">In the Brazilian's struggle</option>
+				<option value="dream">Living a dream</option>
+				<option value="other">Other</option>
+			</select>
+
+			
+			<fieldset>
+				<legend>What is your gender?</legend>
+				<label><input type="radio" name="gender" value="male">Male</label>
+				<label><input type="radio" name="gender" value="female">Female</label>
+				<label><input type="radio" name="gender" value="non-binary">Non-binary</label>
+				<label><input type="radio" name="gender" value="genderqueer">Genderqueer</label>
+				<label><input type="radio" name="gender" value="genderfluid">Genderfluid</label>
+				<label><input type="radio" name="gender" value="agender">Agender</label>
+				<label><input type="radio" name="gender" value="two-spirit">Two-spirit</label>
+				<label><input type="radio" name="gender" value="transgender">Transgender</label>
+				<label><input type="radio" name="gender" value="cisgender">Cisgender</label>
+				<label><input type="radio" name="gender" value="bigender">Bigender</label>
+				<label><input type="radio" name="gender" value="androgynous">Androgynous</label>
+				<label><input type="radio" name="gender" value="demigender">Demigender</label>
+				<label><input type="radio" name="gender" value="other">Other</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Which of the following programming languages do you know?</legend>
+				<label><input type="checkbox" name="language" value="javascript">JavaScript</label>
+				<label><input type="checkbox" name="language" value="python">Python</label>
+				<label><input type="checkbox" name="language" value="java">Java</label>
+				<label><input type="checkbox" name="language" value="c++">C++</label>
+				<label><input type="checkbox" name="language" value="c#">C#</label>
+				<label><input type="checkbox" name="language" value="php">PHP</label>
+				<label><input type="checkbox" name="language" value="typescript">TypeScript</label>
+				<label><input type="checkbox" name="language" value="swift">Swift</label>
+				<label><input type="checkbox" name="language" value="kotlin">Kotlin</label>
+				<label><input type="checkbox" name="language" value="go">Go</label>
+				<label><input type="checkbox" name="language" value="ruby">Ruby</label>
+				<label><input type="checkbox" name="language" value="perl">Perl</label>
+				<label><input type="checkbox" name="language" value="scala">Scala</label>
+				<label><input type="checkbox" name="language" value="rust">Rust</label>
+				<label><input type="checkbox" name="language" value="sql">SQL</label>
+			</fieldset>
+
+			<label for="comments">Additional Comments:</label>
+			<textarea id="comments" name="comments"></textarea>
+
+			<button type="submit" id="submit">Submit</button>
+		</form>
+	</main>
+</body>
+
+</html>
